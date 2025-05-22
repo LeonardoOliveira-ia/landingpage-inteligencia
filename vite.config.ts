@@ -19,13 +19,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  root: path.resolve(__dirname, 'src'),
-  publicDir: path.resolve(__dirname, 'public'),
   build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'src/index.html')
-      }
-    }
+    outDir: 'dist',
+    emptyOutDir: true
   }
 }));
