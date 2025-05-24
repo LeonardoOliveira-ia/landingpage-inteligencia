@@ -74,7 +74,7 @@ const Index = () => {
           {/* Texto principal e links */}
           <div className="text-center text-sm leading-tight space-y-1">
             <p>© Leonardo de Oliveira | Todos os direitos reservados.</p>
-            <p>CNPJ: 53.961.037/0001-42 | suporteleonardooliveira@gmail.com</p>
+            <p>CNPJ: 53.961.037/0001-42 | suporte@leonardodeoliveira.pro</p>
             <p>Endereço: João Oxisque, 109 | Barueri - SP - 06440-000</p>
             <p>Telefone comercial: +55 11 96753-3460</p>
             <div className="flex justify-center space-x-4 mt-1">
