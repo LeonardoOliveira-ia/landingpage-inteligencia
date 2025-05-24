@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export default function TermosDeUso() {
+  useEffect(() => {
+    document.title = "Termos de Uso | leonardodeoliveira.pro";
+  }, []);
   return (
     <main style={{
       fontFamily: 'Segoe UI, Arial, sans-serif',

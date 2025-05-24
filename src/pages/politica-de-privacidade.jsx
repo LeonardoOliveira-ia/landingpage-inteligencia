@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export default function PoliticaDePrivacidade() {
+  useEffect(() => {
+    document.title = "Política de Privacidade | leonardodeoliveira.pro";
+  }, []);
   return (
     <main style={{
       fontFamily: 'Segoe UI, Arial, sans-serif',
