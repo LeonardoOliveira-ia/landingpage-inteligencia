@@ -78,8 +78,8 @@ const Index = () => {
             <p>Endereço: João Oxisque, 109 | Barueri - SP - 06440-000</p>
             <p>Telefone comercial: +55 11 96753-3460</p>
             <div className="flex justify-center space-x-4 mt-1">
-              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm">Política de Privacidade</a>
-              <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm">Termos de Uso</a>
+              <a href="https://leonardodeoliveira.pro/politica-de-privacidade" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm">Política de Privacidade</a>
+              <a href="https://leonardodeoliveira.pro/termos-de-uso" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm">Termos de Uso</a>
             </div>
           </div>
         </div>
