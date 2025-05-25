@@ -7,18 +7,32 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependências
+node_modules/
+
+# Builds locais
+/dist/
+dist-ssr/
+
+# Lockfiles não usados no deploy
+bun.lockb
+
+# Git secundário ou submódulos
+projetopageprincipal/
+
+# Arquivos locais e temporários
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Outros
+README.md

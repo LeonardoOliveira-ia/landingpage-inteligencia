@@ -29,8 +29,9 @@ const FinalCTA = () => {
                 href="https://wa.me/5511967533460?text=Quero%20saber%20mais%20sobre%20Intelig%C3%AAncia%20Artificial%20no%20atendimento%20do%20WhatsApp."
                 target="_blank"
                 rel="noopener noreferrer"
+                className="block w-full"
               >
-                <Button className="bg-green-600 text-white font-bold py-3 px-6 rounded-lg border-2 border-green-400 shadow-[0_0_8px_rgba(34,197,94,0.8),0_0_16px_rgba(34,197,94,0.6),0_0_24px_rgba(34,197,94,0.4)]">
+                <Button className="bg-green-600 text-white font-bold py-3 px-4 md:px-6 rounded-lg border-2 border-green-400 shadow-[0_0_8px_rgba(34,197,94,0.8),0_0_16px_rgba(34,197,94,0.6),0_0_24px_rgba(34,197,94,0.4)] w-full text-xs sm:text-sm md:text-base">
                   SIM! QUERO AUTOMATIZAR MEU ATENDIMENTO
                 </Button>
               </a>
