@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="absolute z-0 -top-8 -center-8 w-[75%] h-[115%] bg-[#d8f4cc] rounded-3xl"></div>
             <div className="relative z-10 max-w-md">
               <img 
-                src="/personagem.png" 
+                src="/personagem.webp" 
                 alt="Atendente com WhatsApp e IA" 
                 className="w-full h-auto animate-fade-in"
               />
@@ -68,7 +68,7 @@ const Hero = () => {
             <div className="absolute z-0 -top-8 -center-8 w-[75%] h-[115%] bg-[#d8f4cc] rounded-3xl"></div>
             <div className="relative z-10 max-w-xs md:max-w-sm">
               <img 
-                src="/personagem.png" 
+                src="/personagem.webp" 
                 alt="Atendente com WhatsApp e IA" 
                 className="w-full h-auto animate-fade-in"
               />
